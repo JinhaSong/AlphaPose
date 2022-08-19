@@ -12,9 +12,9 @@ import torch
 import torch.utils.data as data
 from tqdm import tqdm
 
-from alphapose.utils.presets import SimpleTransform
-from detector.apis import get_detector
-from alphapose.models.builder import DATASET
+from detector.pose_estimation.alphapose.alphapose.utils.presets import SimpleTransform
+from detector.pose_estimation.alphapose.detector.apis import get_detector
+from detector.pose_estimation.alphapose.alphapose.models.builder import DATASET
 
 
 @DATASET.register_module
