@@ -8,7 +8,7 @@ import bisect
 import torch
 import torch.utils.data as data
 
-from alphapose.alphapose.models.builder import DATASET, build_dataset
+from lib.pose.alphapose.alphapose.models.builder import DATASET, build_dataset
 
 
 @DATASET.register_module

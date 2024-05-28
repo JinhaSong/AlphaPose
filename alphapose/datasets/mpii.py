@@ -8,10 +8,10 @@ import os
 
 import numpy as np
 
-from alphapose.alphapose.models.builder import DATASET
-from alphapose.alphapose.utils.bbox import bbox_clip_xyxy, bbox_xywh_to_xyxy
+from lib.pose.alphapose.alphapose.models.builder import DATASET
+from lib.pose.alphapose.alphapose.utils.bbox import bbox_clip_xyxy, bbox_xywh_to_xyxy
 
-from alphapose.alphapose.datasets.custom import CustomDataset
+from lib.pose.alphapose.alphapose.datasets.custom import CustomDataset
 
 
 @DATASET.register_module
