@@ -1,6 +1,6 @@
 from torch import nn
 
-from lib.pose.alphapose.alphapose.utils import Registry, build_from_cfg, retrieve_from_cfg
+from lib.pose.alphapose.alphapose.alphapose.utils import Registry, build_from_cfg, retrieve_from_cfg
 
 
 SPPE = Registry('sppe')
